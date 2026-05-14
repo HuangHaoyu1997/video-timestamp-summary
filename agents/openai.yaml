@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Timestamp Summary"
+  short_description: "将视频链接批量处理为带时间戳的内容摘要 JSONL"
+  default_prompt: "Use $video-timestamp-summary to turn video links into timestamped content-summary JSONL."

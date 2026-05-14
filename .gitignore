@@ -1,0 +1,34 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local editor / agent state
+.claude/
+.vscode/
+.idea/
+
+# Local pipeline inputs and generated outputs
+video/
+asr/
+frame/
+caption/
+abstract/
+timestamp/
+prompt_profiles/
+plan/
+*.log
+*_status.json
+*_status.jsonl
+video_urls.csv
+video_url_occurrences.csv
+video_title_url_mapping.csv
+frame_manifest.csv
+final_video_segments.jsonl
+
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+
